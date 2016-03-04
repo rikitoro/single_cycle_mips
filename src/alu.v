@@ -7,10 +7,10 @@ module alu( input   [31:0]      srca, srcb,
 
   always @(*) begin
     case(alucontrol)
-      3'b000: aluout <= srca & arcb;            // A AND B
+      3'b000: aluout <= srca & srcb;            // A AND B
       3'b001: aluout <= srca | srcb;            // A OR B
       3'b010: aluout <= srca + srcb;            // A + B
-      3'b011: alutou <= 32'b0;                  // not used
+      3'b011: aluout <= 32'b0;                  // not used
       3'b100: aluout <= srca & ~srcb;           // A AND ~B
       3'b101: aluout <= srca | ~srcb;           // A OR ~B
       3'b110: aluout <= srca - srcb;            // A - B

@@ -8,7 +8,7 @@ module maindec  ( input   [5:0] op,
   reg [8:0]  controls;
 
   assign {regwrite, regdst, alusrc, branch,
-          memwrite, memtoreg, jump, aluop} = controls(op);
+          memwrite, memtoreg, jump, aluop} = controls;
 
   always @(*) begin
     case(op)

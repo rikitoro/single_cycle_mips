@@ -7,7 +7,7 @@ module flopr  # (parameter  WIDTH = 8)
     if (reset) begin
       q <= 0;
     end
-    else
+    else begin
       q <= d;
     end
   end
