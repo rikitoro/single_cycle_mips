@@ -13,7 +13,7 @@ module datapath ( input           clk, reset,
   wire  [31:0]  pcnext, pcnextbr, pcplus4, pcbranch;
   wire  [31:0]  signimm, signimmsh;
   wire  [31:0]  srca, srcb;
-  wire  [31:0]  resut;
+  wire  [31:0]  result;
 
   // next PC
   flopr #(32) pcreg(clk, reset, pcnext, pc);
