@@ -1,11 +1,11 @@
 `default_nettype none
 
-module maindec  ( input   [5:0] op,
-                  output        memtoreg, memwrite,
-                  output        branch, alusrc,
-                  output        regdst, regwrite,
-                  output        jump,
-                  output  [1:0] aluop);
+module maindec  ( input   wire  [5:0] op,
+                  output  wire        memtoreg, memwrite,
+                  output  wire        branch, alusrc,
+                  output  wire        regdst, regwrite,
+                  output  wire        jump,
+                  output  wire  [1:0] aluop);
 
   reg [8:0]  controls;
 

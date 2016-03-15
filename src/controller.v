@@ -1,12 +1,12 @@
 `default_nettype none
 
-module controller ( input   [5:0] op, funct,
-                    input         zero,
-                    output        memtoreg, memwrite,
-                    output        pcsrc, alusrc,
-                    output        regdst, regwrite,
-                    output        jump,
-                    output  [2:0] alucontrol);
+module controller ( input   wire  [5:0] op, funct,
+                    input   wire        zero,
+                    output  wire        memtoreg, memwrite,
+                    output  wire        pcsrc, alusrc,
+                    output  wire        regdst, regwrite,
+                    output  wire        jump,
+                    output  wire  [2:0] alucontrol);
 
   wire  [1:0] aluop;
   wire        branch;

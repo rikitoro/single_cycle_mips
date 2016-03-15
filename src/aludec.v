@@ -1,8 +1,8 @@
 `default_nettype none
 
-module aludec ( input       [5:0] funct,
-                input       [1:0] aluop,
-                output reg  [2:0] alucontrol);
+module aludec ( input   wire  [5:0] funct,
+                input   wire  [1:0] aluop,
+                output  reg   [2:0] alucontrol);
 
   always @(*) begin
     case (aluop)
