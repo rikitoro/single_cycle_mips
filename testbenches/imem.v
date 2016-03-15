@@ -1,3 +1,5 @@
+`default_nettype none
+
 module imem ( input   [5:0]   a,
               output  [31:0]  rd);
 

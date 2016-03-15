@@ -1,3 +1,5 @@
+`default_nettype none
+
 module dmem ( input           clk, we,
               input   [31:0]  a, wd,
               output  [31:0]  rd);

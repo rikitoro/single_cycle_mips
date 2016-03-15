@@ -1,3 +1,5 @@
+`default_nettype none
+
 module datapath ( input           clk, reset,
                   input           memtoreg, pcsrc,
                   input           alusrc, regdst,

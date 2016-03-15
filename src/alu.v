@@ -1,3 +1,5 @@
+`default_nettype none
+
 module alu( input   [31:0]      srca, srcb,
             input   [2:0]       alucontrol,
             output  reg [31:0]  aluout,

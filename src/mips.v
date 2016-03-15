@@ -1,3 +1,5 @@
+`default_nettype none
+
 module mips ( input           clk, reset,
               output  [31:0]  pc,
               input   [31:0]  instr,
