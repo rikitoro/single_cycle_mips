@@ -1,7 +1,7 @@
 `default_nettype none
 
-module imem ( input   [5:0]   a,
-              output  [31:0]  rd);
+module imem ( input   wire  [5:0]   a,
+              output  wire  [31:0]  rd);
 
   reg [31:0]  RAM[63:0];
 

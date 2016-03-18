@@ -1,8 +1,8 @@
 `default_nettype none
 
-module top  ( input           clk, reset,
-              output  [31:0]  writedata, dataadr,
-              output          memwrite);
+module top  ( input   wire          clk, reset,
+              output  wire  [31:0]  writedata, dataadr,
+              output  wire          memwrite);
 
   wire  [31:0]  pc, instr, readdata;
 

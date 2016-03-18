@@ -1,0 +1,139 @@
+# Reading C:/altera_lite/15.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project single_cycle_mips
+# Compile of sl2.v was successful.
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of aludec.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of flopr.v was successful.
+# Compile of maindec.v was successful.
+# Compile of mux2.v was successful.
+# Compile of regfile.v was successful.
+# Compile of signext.v was successful.
+# Compile of top.v was successful.
+# Compile of dmem.v was successful.
+# Compile of imem.v was successful.
+# Compile of testbench.v was successful.
+# Compile of mips.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:28:45 on Mar 18,2016
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/reset
+add wave -position end  sim:/testbench/writedata
+add wave -position end  sim:/testbench/dataadr
+add wave -position end  sim:/testbench/memwrite
+restart
+run
+# Simulation failed
+# ** Note: $stop    : D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v(34)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v line 34
+restart
+run
+# Simulation failed
+# ** Note: $stop    : D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v(34)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v line 34
+# Compile of sl2.v was successful.
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of aludec.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of flopr.v was successful.
+# Compile of maindec.v was successful.
+# Compile of mux2.v was successful.
+# Compile of regfile.v was successful.
+# Compile of signext.v was successful.
+# Compile of top.v was successful.
+# Compile of dmem.v was successful.
+# Compile of imem.v was successful.
+# Compile of testbench.v was successful.
+# Compile of mips.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+run
+# Simulation failed
+# ** Note: $stop    : D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v(34)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v line 34
+# Compile of sl2.v was successful.
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of aludec.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of flopr.v was successful.
+# Compile of maindec.v was successful.
+# Compile of mux2.v was successful.
+# Compile of regfile.v was successful.
+# Compile of signext.v was successful.
+# Compile of top.v was successful.
+# Compile of dmem.v was successful.
+# Compile of imem.v was successful.
+# Compile of testbench.v was successful.
+# Compile of mips.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+run
+# ** Warning: (vsim-7) Failed to open readmem file "memfile.dat" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/imem.v(10)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem
+restart
+run
+# Simulation succeeded
+# ** Note: $stop    : D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v(31)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at D:/cygwin64/home/yoshiaki/devel/single_cycle_mips/testbenches/testbench.v line 31
