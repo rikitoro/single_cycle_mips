@@ -1,9 +1,9 @@
 `default_nettype none
 
-module alu( input   [31:0]      srca, srcb,
-            input   [2:0]       alucontrol,
-            output  reg [31:0]  aluout,
-            output              zero);
+module alu( input   wire  [31:0]  srca, srcb,
+            input   wire  [2:0]   alucontrol,
+            output  reg   [31:0]  aluout,
+            output  wire          zero);
 
   assign zero = (aluout == 32'b0) ? 1'b1 : 1'b0;
 

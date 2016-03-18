@@ -1,15 +1,15 @@
 `default_nettype none
 
-module datapath ( input           clk, reset,
-                  input           memtoreg, pcsrc,
-                  input           alusrc, regdst,
-                  input           regwrite, jump,
-                  input   [2:0]   alucontrol,
-                  output          zero,
-                  output  [31:0]  pc,
-                  input   [31:0]  instr,
-                  output  [31:0]  aluout, writedata,
-                  input   [31:0]  readdata);
+module datapath ( input   wire          clk, reset,
+                  input   wire          memtoreg, pcsrc,
+                  input   wire          alusrc, regdst,
+                  input   wire          regwrite, jump,
+                  input   wire  [2:0]   alucontrol,
+                  output  wire          zero,
+                  output  wire  [31:0]  pc,
+                  input   wire  [31:0]  instr,
+                  output  wire  [31:0]  aluout, writedata,
+                  input   wire  [31:0]  readdata);
 
   wire  [4:0]   writereg;
   wire  [31:0]  pcnext, pcnextbr, pcplus4, pcbranch;

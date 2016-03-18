@@ -1,3 +1,5 @@
+`default_nettype none
+
 module testbench();
 
   reg clk;
@@ -11,9 +13,9 @@ module testbench();
 
   // initialize test
   initial
-  begin
-    reset <= 1; # 22; reset <= 0;
-  end
+    begin
+      reset <= 1; # 22; reset <= 0;
+    end
 
   // generate clock to sequence tests
   always
@@ -25,10 +27,10 @@ module testbench();
   always @(negedge clk) begin
     if (memwrite) begin
       if (dataadr === 84 & writedata === 7) begin
-        $messagelog("%:S Simulation succeeded", "Note");
+        $display("Simulation succeeded");
         $stop;
       end else if(dataadr !== 80) begin
-        $messagelog ("%:S Simulation failed", "Note");
+        $display("Simulation failed");
         $stop;
       end
     end
